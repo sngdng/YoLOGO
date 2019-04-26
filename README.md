@@ -64,7 +64,8 @@ optional arguments:
     The file model_data/yolo_weights.h5 is used to load pretrained weights.
 
 3. Modify train.py (you can adjust the parameters) and start training.  
-    ```
+Use -h to see usage of train.py:
+```
 usage: train.py [-h] [-ap ANNOTATION_PATH] [-c CLASSES_PATH] [-a ANCHORS]
                 [-w WEIGHTS]
 

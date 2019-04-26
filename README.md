@@ -80,8 +80,8 @@ optional arguments:
   -w WEIGHTS, --weights WEIGHTS
                         input weights
 ```
-Use your trained weights or checkpoint weights with command line option `-w` when training
-Remember to modify class path or anchor path, with `-c` and `-a`. You can use bottleneck training to gain speed.
+  Use your trained weights or checkpoint weights with command line option `-w` when training.
+  Remember to modify class path or anchor path, with `-c` and `-a`. You can use bottleneck training to gain speed.
 
 4. (Optional) you can try with Flickr27 dataset: https://drive.google.com/file/d/14J-FUoqU2W8uHhaB2Y-VVLJ9UOTFftyx/view?usp=sharing
 For the anchors, either you use the default anchors of Yolov3 or you can run `python kmeans.py` (need to adapt a bit)

@@ -11,8 +11,9 @@ train_data = SOURCE_DIR + "/data/train_annotation.txt"
 new_annotation = []
 
 with open(train_data, "r") as data:
-    for line in data:
-        strLine = data.readline().split()
+    lines = data.readlines()
+    for line in lines:
+        strLine = line.split()
         path = SOURCE_DIR + "/data/images/" + strLine[0]
         if strLine[1] in brand:
             class_id = brand.index(strLine[1])

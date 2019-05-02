@@ -92,4 +92,9 @@ If you want to use original pretrained weights for YOLOv3:
     3. `python convert.py -w darknet53.cfg darknet53.weights model_data/darknet53_weights.h5`  
     4. use model_data/darknet53_weights.h5 in train.py
 
+## BBOX annotation tool
 
+1. The tool used comes from https://github.com/xiaqunfeng/BBox-Label-Tool (thanks a lot!)
+2. Firstly, create a folder Images/ and Labels, put all your images in Images/,  You can then annote images from scratch: `python bbox_annotation_tool.py`
+3. Run `python bbox_annotation_convert.py` to convert to the wanted format.
+4. Don't forget to change class.txt
